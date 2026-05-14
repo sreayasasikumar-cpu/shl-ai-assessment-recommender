@@ -1,0 +1,32 @@
+[
+  {
+    "name": ".NET Framework 4.5",
+    "url": "https://www.shl.com/products/product-catalog/view/net-framework-4-5/",
+    "description": "Measures knowledge of .NET environment including application development, diagnostics, deployment, security, and performance.",
+    "test_type": "Technical"
+  },
+  {
+    "name": "Java 8 (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/java-8-new/",
+    "description": "Measures Java 8 programming knowledge including class design, exceptions, generics, collections, concurrency, JDBC, and Java I/O fundamentals.",
+    "test_type": "Technical"
+  },
+  {
+    "name": "Python 3 (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/python-3-new/",
+    "description": "Measures Python 3 programming knowledge including data types, control flow, functions, modules, file handling, and object-oriented programming.",
+    "test_type": "Technical"
+  },
+  {
+    "name": "SQL (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/sql-new/",
+    "description": "Measures SQL programming knowledge including data manipulation, data definition, data control, and query optimization.",
+    "test_type": "Technical"
+  },
+  {
+    "name": "OPQ32r",
+    "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+    "description": "Measures workplace personality traits, behavioral style, and job-related preferences to predict workplace performance.",
+    "test_type": "Personality"
+  }
+]
