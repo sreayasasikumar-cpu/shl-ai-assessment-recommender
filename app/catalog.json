@@ -28,5 +28,47 @@
     "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
     "description": "Measures workplace personality traits, behavioral style, and job-related preferences to predict workplace performance.",
     "test_type": "Personality"
+  },
+  {
+    "name": "Customer Service Phone Simulation",
+    "url": "https://www.shl.com/products/product-catalog/view/customer-service-phone-simulation/",
+    "description": "Measures customer service, communication, problem-solving, and call handling skills for contact center and customer support roles.",
+    "test_type": "Communication"
+  },
+  {
+    "name": "HiPo Assessment Report 1.0",
+    "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-1-0/",
+    "description": "Measures leadership potential, cognitive ability, motivation, and engagement to identify high-potential employees for senior and challenging roles.",
+    "test_type": "Leadership"
+  },
+  {
+    "name": "HiPo Assessment Report 2.0",
+    "url": "https://www.shl.com/products/product-catalog/view/hipo-assessment-report-2-0/",
+    "description": "Measures leadership potential, cognitive ability, motivation, and engagement to identify and develop future organizational leaders.",
+    "test_type": "Leadership"
+  },
+  {
+    "name": "SHL Verify Interactive - Inductive Reasoning",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/",
+    "description": "Measures the ability to identify patterns, analyze information, and apply logical reasoning to new situations.",
+    "test_type": "Cognitive"
+  },
+  {
+    "name": "SHL Verify Interactive - Deductive Reasoning",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+    "description": "Measures logical reasoning, conclusion drawing, and evaluation of arguments using incomplete information.",
+    "test_type": "Cognitive"
+  },
+  {
+    "name": "SHL Verify Interactive - Numerical Reasoning",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+    "description": "Measures the ability to interpret, analyze, and work with numerical and data-based information.",
+    "test_type": "Cognitive"
+  },
+  {
+    "name": "SHL Verify Interactive G+",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-g-plus/",
+    "description": "Measures general cognitive ability including deductive, inductive, and numerical reasoning skills.",
+    "test_type": "Cognitive"
   }
 ]
