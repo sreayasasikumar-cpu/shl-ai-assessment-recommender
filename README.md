@@ -65,15 +65,11 @@ shl-ai-assessment-recommender/
 
 ## Base URL
 
-```bash
 https://shl-ai-assessment-recommender-8owo.onrender.com
-```
 
 ## Swagger Documentation
 
-```bash
 https://shl-ai-assessment-recommender-8owo.onrender.com/docs
-```
 
 ---
 
@@ -83,9 +79,7 @@ https://shl-ai-assessment-recommender-8owo.onrender.com/docs
 
 ### Endpoint
 
-```bash
 POST /recommend
-```
 
 ### Sample Request
 
@@ -149,21 +143,15 @@ POST /recommend
 
 ## GitHub Repository
 
-```bash
 https://github.com/sreayasasikumar-cpu/shl-ai-assessment-recommender
-```
 
 ## Render Deployment
 
-```bash
 https://shl-ai-assessment-recommender-8owo.onrender.com/
-```
 
 ## Swagger Docs
 
-```bash
 https://shl-ai-assessment-recommender-8owo.onrender.com/docs
-```
 
 ---
 
@@ -195,9 +183,7 @@ uvicorn app.main:app --reload
 
 ## Open Swagger Docs
 
-```bash
 http://127.0.0.1:8000/docs
-```
 
 ---
 
