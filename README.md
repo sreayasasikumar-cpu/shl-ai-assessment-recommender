@@ -1,110 +1,112 @@
-# SHL AI Assessment Recommender
+# SHL Assessment Recommendation System
 
-## Project Overview
-
-This project is an AI-powered assessment recommendation system built for the SHL Internship Assignment.
-
-The system recommends suitable SHL assessments based on natural language queries such as:
-
-- "Need personality assessment for leadership role"
-- "Looking for cognitive ability test for freshers"
-- "Need communication assessment for customer support hiring"
-
-The application uses semantic similarity and NLP embeddings to retrieve the most relevant assessments from a catalog.
+An AI-powered assessment recommendation API that suggests relevant SHL assessments based on user queries. The system matches user requirements such as technical skills, leadership, cognitive ability, personality, and communication skills with suitable SHL assessments.
 
 ---
 
-## Features
+# Project Overview
 
-- FastAPI-based REST API
-- Semantic search using Sentence Transformers
-- Intelligent assessment recommendation
-- Public API deployment using Render
+This project was developed as part of the SHL internship assignment. The application provides assessment recommendations through a FastAPI-based REST API.
+
+Users can enter queries like:
+
+- "Need Python developer assessment"
+- "Need leadership assessment for managers"
+- "Need cognitive ability test"
+- "Need customer service assessment"
+
+The API then returns the most relevant SHL assessments from the assessment catalog.
+
+---
+
+# Features
+
+- FastAPI REST API
+- SHL assessment recommendation engine
+- Keyword-based intelligent matching
+- Technical assessment recommendations
+- Leadership assessment recommendations
+- Cognitive ability assessment recommendations
+- Personality assessment recommendations
+- Communication assessment recommendations
 - Swagger API documentation
-- JSON-based assessment catalog
+- Render cloud deployment
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - Python
 - FastAPI
-- Sentence Transformers
-- scikit-learn
-- NumPy
 - Uvicorn
-- Render (Deployment)
+- JSON
+- Render
+- GitHub
 
 ---
 
-## Project Structure
+# Project Structure
 
-```text
-app/
+```bash
+shl-ai-assessment-recommender/
 │
-├── main.py
-├── retriever.py
-├── catalog.json
-├── embed.py
-└── prompts.py
-
-requirements.txt
+├── app/
+│   ├── main.py
+│   ├── retriever.py
+│   └── catalog.json
+│
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## API Deployment
+# API Documentation
 
-### Live API URL
+## Base URL
 
+```bash
 https://shl-ai-assessment-recommender-8owo.onrender.com
+```
 
-### Swagger Documentation
+## Swagger Documentation
 
+```bash
 https://shl-ai-assessment-recommender-8owo.onrender.com/docs
-
----
-
-## API Endpoints
-
-### GET /
-
-Health check endpoint.
-
-#### Response
-
-```json
-{
-  "message": "SHL Assessment Recommendation API Running"
-}
 ```
 
 ---
 
-### POST /recommend
+# API Endpoint
 
-Returns recommended SHL assessments based on user query.
+## Recommend Assessments
 
-#### Sample Request
+### Endpoint
+
+```bash
+POST /recommend
+```
+
+### Sample Request
 
 ```json
 {
-  "query": "Need personality assessment for leadership role"
+  "query": "Need Python developer assessment"
 }
 ```
 
-#### Sample Response
+### Sample Response
 
 ```json
 {
-  "query": "Need personality assessment for leadership role",
+  "query": "Need Python developer assessment",
   "recommendations": [
     {
-      "name": "OPQ32r",
-      "url": "https://www.shl.com/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
-      "description": "Measures workplace personality traits, behavioral style, and job-related preferences to predict workplace performance.",
-      "test_type": "Personality",
-      "score": 0.84
+      "name": "Python 3 (New)",
+      "url": "https://www.shl.com/products/product-catalog/view/python-3-new/",
+      "description": "Measures Python 3 programming knowledge including data types, control flow, functions, modules, file handling, and object-oriented programming.",
+      "test_type": "Technical",
+      "score": 1
     }
   ]
 }
@@ -112,44 +114,105 @@ Returns recommended SHL assessments based on user query.
 
 ---
 
-## Installation & Local Setup
+# Supported Assessment Categories
 
-### Clone Repository
+## Technical Assessments
+
+- Python
+- Java
+- SQL
+- .NET
+
+## Leadership Assessments
+
+- HiPo Assessment Report 1.0
+- HiPo Assessment Report 2.0
+
+## Cognitive Assessments
+
+- Inductive Reasoning
+- Deductive Reasoning
+- Numerical Reasoning
+- SHL Verify Interactive G+
+
+## Personality Assessments
+
+- OPQ32r
+
+## Communication Assessments
+
+- Customer Service Phone Simulation
+
+---
+
+# Deployment Links
+
+## GitHub Repository
+
+```bash
+https://github.com/sreayasasikumar-cpu/shl-ai-assessment-recommender
+```
+
+## Render Deployment
+
+```bash
+https://shl-ai-assessment-recommender-8owo.onrender.com/
+```
+
+## Swagger Docs
+
+```bash
+https://shl-ai-assessment-recommender-8owo.onrender.com/docs
+```
+
+---
+
+# Local Setup Instructions
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/sreayasasikumar-cpu/shl-ai-assessment-recommender.git
 ```
 
-### Move Into Project
+## Move to Project Directory
 
 ```bash
 cd shl-ai-assessment-recommender
 ```
 
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Application
+## Run the Application
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
----
+## Open Swagger Docs
 
-## Future Improvements
-
-- Expand assessment catalog
-- Add hybrid filtering and ranking
-- Improve recommendation accuracy
-- Add LLM-based query understanding
-- Add frontend UI
+```bash
+http://127.0.0.1:8000/docs
+```
 
 ---
 
-## Author
+# Future Improvements
+
+- Semantic search using embeddings
+- NLP-based recommendation engine
+- Better ranking and filtering
+- Expanded SHL assessment catalog
+- Frontend integration
+- Database integration
+- User authentication
+
+---
+
+# Author
 
 Sreaya Sasikumar
