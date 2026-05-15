@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from retriever import retrieve_assessments
+from app.retriever import retrieve_assessments
 
 app = FastAPI()
 

@@ -1,7 +1,5 @@
 fastapi
 uvicorn
-sentence-transformers
-faiss-cpu
-requests
-beautifulsoup4
-openai
+numpy
+scikit-learn
+pydantic
